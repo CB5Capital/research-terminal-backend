@@ -35,7 +35,7 @@ class NoteInsertRequest(BaseModel):
 class ChatContinueRequest(BaseModel):
     message: str
     conversation_history: list = []
-    dashboard_id: str = None  # Optional dashboard ID to save conversation history
+    dashboard_id: str = None
 
 app = FastAPI(
     title="CB5 Capital Research Terminal API",
@@ -1443,3 +1443,67 @@ Analyze the data and provide a comprehensive answer to the user's question."""
     except Exception as e:
         print(f"Error in chat continuation: {e}")
         raise HTTPException(status_code=500, detail=f"Error processing chat: {str(e)}")
+
+
+@app.get("/api/cases/{case_name}/research-questions")
+async def get_research_questions(case_name: str):
+    """Get research questions for a case from ProjectLib."""
+    try:
+        project_file = os.path.join("ProjectLib", f"{case_name}.json")
+        
+        if not os.path.exists(project_file):
+            raise HTTPException(status_code=404, detail=f"Project {case_name} not found")
+        
+        with open(project_file, 'r', encoding='utf-8') as f:
+            project_data = json.load(f)
+        
+        research_questions = project_data.get('research_questions', [])
+        
+        return {
+            "success": True,
+            "case_name": case_name,
+            "research_questions": research_questions
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        print(f"Error getting research questions: {e}")
+        raise HTTPException(status_code=500, detail=f"Error loading research questions: {str(e)}")
+
+
+@app.put("/api/cases/{case_name}/research-questions")
+async def update_research_questions(case_name: str, request: dict):
+    """Update research questions for a case in ProjectLib."""
+    try:
+        project_file = os.path.join("ProjectLib", f"{case_name}.json")
+        
+        if not os.path.exists(project_file):
+            raise HTTPException(status_code=404, detail=f"Project {case_name} not found")
+        
+        # Load existing project data
+        with open(project_file, 'r', encoding='utf-8') as f:
+            project_data = json.load(f)
+        
+        # Update research questions
+        research_questions = request.get('research_questions', [])
+        project_data['research_questions'] = research_questions
+        
+        # Save updated project data
+        with open(project_file, 'w', encoding='utf-8') as f:
+            json.dump(project_data, f, indent=4, ensure_ascii=False)
+        
+        print(f"Updated research questions for {case_name}: {len(research_questions)} questions")
+        
+        return {
+            "success": True,
+            "case_name": case_name,
+            "research_questions": research_questions,
+            "message": f"Updated {len(research_questions)} research questions"
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        print(f"Error updating research questions: {e}")
+        raise HTTPException(status_code=500, detail=f"Error saving research questions: {str(e)}")
