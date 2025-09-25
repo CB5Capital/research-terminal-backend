@@ -1459,6 +1459,15 @@ async def get_research_questions(case_name: str):
         
         research_questions = project_data.get('research_questions', [])
         
+        # Debug: print what we're returning
+        print(f"Returning research questions for {case_name}:")
+        for i, q in enumerate(research_questions):
+            if isinstance(q, dict):
+                print(f"  {i+1}. Question: '{q.get('question', 'N/A')}'")
+                print(f"      Notes: '{q.get('notes', 'N/A')}'")
+            else:
+                print(f"  {i+1}. Legacy format: '{q}'")
+        
         return {
             "success": True,
             "case_name": case_name,
