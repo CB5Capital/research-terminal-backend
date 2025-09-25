@@ -43,13 +43,32 @@ app = FastAPI(
     version="1.0.0"
 )
 
+# CORS configuration
+cors_origins = os.getenv("CORS_ORIGINS", '["http://localhost:3000", "http://localhost:5173"]')
+if isinstance(cors_origins, str):
+    try:
+        import ast
+        cors_origins = ast.literal_eval(cors_origins)
+    except:
+        cors_origins = ["*"]  # Fallback to allow all if parsing fails
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=os.getenv("CORS_ORIGINS"),
+    allow_origins=cors_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+@app.get("/")
+async def root():
+    """Health check endpoint."""
+    return {"status": "ok", "message": "CB5 Capital Research Terminal API is running"}
+
+@app.get("/health")
+async def health():
+    """Health check endpoint."""
+    return {"status": "healthy", "version": "1.0.0"}
 
 @app.get("/api/cases")
 async def get_all_cases():

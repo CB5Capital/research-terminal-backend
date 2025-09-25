@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: cb5-research-api
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python start.py
+    envVars:
+      - key: API_HOST
+        value: 0.0.0.0
+      - key: API_PORT
+        value: 10000
+      - key: API_RELOAD
+        value: "false"
+      - key: LOG_LEVEL
+        value: info
+      - key: ENVIRONMENT
+        value: production
+      - key: OPENAI_API_KEY
+        sync: false  # This will be set manually in Render dashboard
+      - key: CORS_ORIGINS
+        sync: false  # This will be set manually in Render dashboard
