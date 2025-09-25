@@ -1487,19 +1487,44 @@ async def update_research_questions(case_name: str, request: dict):
         
         # Update research questions
         research_questions = request.get('research_questions', [])
-        project_data['research_questions'] = research_questions
+        
+        # Ensure all questions have the proper structure
+        normalized_questions = []
+        for i, question_data in enumerate(research_questions):
+            if isinstance(question_data, str):
+                # Convert legacy string format to new object format
+                normalized_question = {
+                    "id": f"q{i+1}_{int(datetime.now().timestamp())}",
+                    "question": question_data,
+                    "notes": "",
+                    "created_at": datetime.now().isoformat(),
+                    "updated_at": datetime.now().isoformat()
+                }
+                normalized_questions.append(normalized_question)
+            elif isinstance(question_data, dict):
+                # Ensure object has all required fields
+                normalized_question = {
+                    "id": question_data.get('id', f"q{i+1}_{int(datetime.now().timestamp())}"),
+                    "question": question_data.get('question', ''),
+                    "notes": question_data.get('notes', ''),
+                    "created_at": question_data.get('created_at', datetime.now().isoformat()),
+                    "updated_at": question_data.get('updated_at', datetime.now().isoformat())
+                }
+                normalized_questions.append(normalized_question)
+        
+        project_data['research_questions'] = normalized_questions
         
         # Save updated project data
         with open(project_file, 'w', encoding='utf-8') as f:
             json.dump(project_data, f, indent=4, ensure_ascii=False)
         
-        print(f"Updated research questions for {case_name}: {len(research_questions)} questions")
+        print(f"Updated research questions for {case_name}: {len(normalized_questions)} questions")
         
         return {
             "success": True,
             "case_name": case_name,
-            "research_questions": research_questions,
-            "message": f"Updated {len(research_questions)} research questions"
+            "research_questions": normalized_questions,
+            "message": f"Updated {len(normalized_questions)} research questions"
         }
         
     except HTTPException:
