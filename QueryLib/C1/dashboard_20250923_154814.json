@@ -1,0 +1,206 @@
+{
+  "title": "Regional Adoption Rates for Cleaning Services",
+  "subtitle": "Overview of adoption rates across different regions for cleaning services",
+  "layout": "grid",
+  "columns": 3,
+  "components": [
+    {
+      "type": "data_table",
+      "size": "large",
+      "title": "Adoption Rates by Region",
+      "headers": [
+        "Region",
+        "Current Adoption Rate",
+        "Projected Adoption Rate"
+      ],
+      "rows": [
+        [
+          "United States",
+          "10%",
+          "80% of dual-income households"
+        ],
+        [
+          "Global",
+          "15%",
+          "Varies by region, higher in developed regions"
+        ]
+      ],
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "Adoption rates are expected to increase significantly, especially in dual-income households in the U.S."
+        }
+      ],
+      "position": {
+        "row": 1,
+        "col": 1
+      }
+    },
+    {
+      "type": "data_table",
+      "size": "medium",
+      "title": "Regional Adoption Rates",
+      "headers": [
+        "Region",
+        "Adoption Rate"
+      ],
+      "rows": [
+        [
+          "North America",
+          "25%"
+        ],
+        [
+          "Europe",
+          "25%"
+        ],
+        [
+          "Developing Countries",
+          "5%"
+        ]
+      ],
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "Adoption rates vary significantly by region, with higher rates in developed areas."
+        }
+      ],
+      "position": {
+        "row": 1,
+        "col": 2
+      }
+    },
+    {
+      "type": "data_table",
+      "size": "medium",
+      "title": "Regional Market Projections for 2024",
+      "headers": [
+        "Region",
+        "Market Size",
+        "Key Driver"
+      ],
+      "rows": [
+        [
+          "North America",
+          "$12.5B",
+          "High disposable income"
+        ],
+        [
+          "Europe",
+          "$8.9B",
+          "Energy efficiency"
+        ],
+        [
+          "Asia-Pacific",
+          "$15.2B",
+          "Largest growth potential"
+        ]
+      ],
+      "sources": [
+        {
+          "filename": "market_analysis.txt",
+          "relevance": "High",
+          "key_insight": "Market size projections for key regions in 2024."
+        }
+      ],
+      "position": {
+        "row": 1,
+        "col": 3
+      }
+    },
+    {
+      "type": "metric_card",
+      "size": "small",
+      "label": "Global Household Adoption Rate",
+      "value": "15%",
+      "color": "purple",
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "Globally, 15% of households use professional cleaning services, with higher rates in developed regions."
+        }
+      ],
+      "position": {
+        "row": 2,
+        "col": 1
+      }
+    },
+    {
+      "type": "metric_card",
+      "size": "small",
+      "label": "US Household Adoption Rate",
+      "value": "80%",
+      "color": "orange",
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "80% of dual-income households in the US are expected to use professional cleaning services."
+        }
+      ],
+      "position": {
+        "row": 2,
+        "col": 2
+      }
+    },
+    {
+      "type": "data_table",
+      "size": "medium",
+      "title": "Market Segments Overview",
+      "headers": [
+        "Segment",
+        "Market Share",
+        "Growth Rate",
+        "Key Players"
+      ],
+      "rows": [
+        [
+          "Residential Robotics",
+          "68%",
+          "25.2%",
+          "iRobot, Dyson, Shark"
+        ],
+        [
+          "Commercial Cleaning",
+          "24%",
+          "28.1%",
+          "Brain Corp, SoftBank Robotics"
+        ],
+        [
+          "Industrial Automation",
+          "8%",
+          "31.5%",
+          "Kuka, ABB"
+        ]
+      ],
+      "sources": [
+        {
+          "filename": "market_metrics.json",
+          "relevance": "High",
+          "key_insight": "Overview of market segments with their respective market shares, growth rates, and key players."
+        }
+      ],
+      "position": {
+        "row": 2,
+        "col": 3
+      }
+    }
+  ],
+  "metadata": {
+    "query": "What are the different adoption rates in different regions for cleaning services?",
+    "case_name": "C1",
+    "items_selected": 6,
+    "total_items_available": 51,
+    "selected_item_ids": [
+      "C1_What is the current state of the home cleaning ser.docx_create_data_table_20250923_152259",
+      "C1_What is the current state of the home cleaning ser.docx_create_data_table_20250923_115709",
+      "C1_market_analysis.txt_create_data_table_20250923_153747",
+      "C1_What is the current state of the home cleaning ser.docx_create_metric_card_20250923_153008",
+      "C1_What is the current state of the home cleaning ser.docx_create_metric_card_20250923_152447",
+      "C1_market_metrics.json_create_data_table_20250923_153722"
+    ],
+    "created_at": "2025-09-23T15:48:14.415253"
+  }
+}

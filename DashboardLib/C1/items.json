@@ -1,0 +1,1717 @@
+[
+  {
+    "id": "C1_What is the current state of the home cleaning ser.docx_create_data_table_20250923_115709",
+    "source_file": "What is the current state of the home cleaning ser.docx",
+    "created_at": "2025-09-23T11:57:09.952606",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "data_table",
+      "size": "medium",
+      "title": "Regional Adoption Rates",
+      "headers": [
+        "Region",
+        "Adoption Rate"
+      ],
+      "rows": [
+        [
+          "North America",
+          "25%"
+        ],
+        [
+          "Europe",
+          "25%"
+        ],
+        [
+          "Developing Countries",
+          "5%"
+        ]
+      ],
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "Adoption rates vary significantly by region, with higher rates in developed areas."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "docx",
+      "file_size": 24811,
+      "component_type": "data_table",
+      "analysis_query": "Extract data_table insights from What is the current state of the home cleaning ser.docx"
+    }
+  },
+  {
+    "id": "C1_What is the current state of the home cleaning ser.docx_create_list_items_20250923_115709",
+    "source_file": "What is the current state of the home cleaning ser.docx",
+    "created_at": "2025-09-23T11:57:09.952627",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "list_items",
+      "size": "medium",
+      "title": "Key Demographic Drivers",
+      "items": [
+        "Dual-Income Households",
+        "Aging Population",
+        "Urban Professionals"
+      ],
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "These demographic factors are driving increased adoption of home cleaning services."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "docx",
+      "file_size": 24811,
+      "component_type": "list_items",
+      "analysis_query": "Extract list_items insights from What is the current state of the home cleaning ser.docx"
+    }
+  },
+  {
+    "id": "C1_What is the current state of the home cleaning ser.docx_create_financial_chart_20250923_115709",
+    "source_file": "What is the current state of the home cleaning ser.docx",
+    "created_at": "2025-09-23T11:57:09.952653",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "financial_chart",
+      "size": "medium",
+      "title": "Robotic Cleaning Market Growth",
+      "data": [
+        {
+          "label": "2022",
+          "value": 9.8
+        },
+        {
+          "label": "2027",
+          "value": 25.9
+        }
+      ],
+      "chart_type": "line",
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "The robotic cleaning market is expected to grow significantly, with a 21.5% CAGR."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "docx",
+      "file_size": 24811,
+      "component_type": "financial_chart",
+      "analysis_query": "Extract financial_chart insights from What is the current state of the home cleaning ser.docx"
+    }
+  },
+  {
+    "id": "C1_What is the current state of the home cleaning ser.docx_create_risk_assessment_20250923_115709",
+    "source_file": "What is the current state of the home cleaning ser.docx",
+    "created_at": "2025-09-23T11:57:09.952677",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "risk_assessment",
+      "size": "large",
+      "title": "Labor Shortage Crisis",
+      "risks": [
+        {
+          "title": "High Turnover Rates",
+          "level": "High",
+          "description": "Annual churn rates are 200-400% across various cleaning roles."
+        },
+        {
+          "title": "Increased Operational Costs",
+          "level": "Medium",
+          "description": "Constant recruitment and training due to labor shortages."
+        },
+        {
+          "title": "Service Fulfillment Challenges",
+          "level": "High",
+          "description": "Difficulty in fulfilling service contracts and maintaining quality standards."
+        }
+      ],
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "The cleaning industry faces significant labor shortages impacting growth and operations."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "docx",
+      "file_size": 24811,
+      "component_type": "risk_assessment",
+      "analysis_query": "Extract risk_assessment insights from What is the current state of the home cleaning ser.docx"
+    }
+  },
+  {
+    "id": "C1_What is the current state of the home cleaning ser.docx_create_text_analysis_20250923_115709",
+    "source_file": "What is the current state of the home cleaning ser.docx",
+    "created_at": "2025-09-23T11:57:09.952699",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "text_analysis",
+      "size": "large",
+      "title": "Technological Transformation in Cleaning Services",
+      "content": "The cleaning service industry is rapidly adopting digital technologies, with over 70% of bookings made through online platforms. Innovations such as app-based services, robotic cleaning, IoT integration, and AI are transforming service delivery and efficiency.",
+      "insights": [
+        "70% of bookings are digital",
+        "Robotic cleaning market growing at 21.5% CAGR",
+        "IoT and AI enhancing service efficiency"
+      ],
+      "conclusion": "Technology is a key driver of growth and efficiency in the home cleaning service market.",
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "Digital transformation is reshaping the home cleaning service industry, enhancing efficiency and customer experience."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "docx",
+      "file_size": 24811,
+      "component_type": "text_analysis",
+      "analysis_query": "Extract text_analysis insights from What is the current state of the home cleaning ser.docx"
+    }
+  },
+  {
+    "id": "C1_What is the current state of the home cleaning ser.docx_create_metric_card_20250923_152259",
+    "source_file": "What is the current state of the home cleaning ser.docx",
+    "created_at": "2025-09-23T15:22:59.291284",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "metric_card",
+      "size": "small",
+      "label": "Global Market Size 2025",
+      "value": "$73.54 billion",
+      "color": "blue",
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "The home cleaning services market is growing, with a significant increase from 2024 to 2025."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "docx",
+      "file_size": 24811,
+      "component_type": "metric_card",
+      "analysis_query": "Extract metric_card insights from What is the current state of the home cleaning ser.docx"
+    }
+  },
+  {
+    "id": "C1_What is the current state of the home cleaning ser.docx_create_metric_card_20250923_152259",
+    "source_file": "What is the current state of the home cleaning ser.docx",
+    "created_at": "2025-09-23T15:22:59.291389",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "metric_card",
+      "size": "small",
+      "label": "Projected Market Size 2030",
+      "value": "$111.53 billion",
+      "color": "green",
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "The market is expected to continue its growth trajectory, reaching over $111 billion by 2030."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "docx",
+      "file_size": 24811,
+      "component_type": "metric_card",
+      "analysis_query": "Extract metric_card insights from What is the current state of the home cleaning ser.docx"
+    }
+  },
+  {
+    "id": "C1_What is the current state of the home cleaning ser.docx_create_data_table_20250923_152259",
+    "source_file": "What is the current state of the home cleaning ser.docx",
+    "created_at": "2025-09-23T15:22:59.291429",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "data_table",
+      "size": "medium",
+      "title": "Adoption Rates by Region",
+      "headers": [
+        "Region",
+        "Current Adoption Rate",
+        "Projected Adoption Rate"
+      ],
+      "rows": [
+        [
+          "United States",
+          "10%",
+          "80% of dual-income households"
+        ],
+        [
+          "Global",
+          "15%",
+          "Varies by region, higher in developed regions"
+        ]
+      ],
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "Adoption rates are expected to increase significantly, especially in dual-income households in the U.S."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "docx",
+      "file_size": 24811,
+      "component_type": "data_table",
+      "analysis_query": "Extract data_table insights from What is the current state of the home cleaning ser.docx"
+    }
+  },
+  {
+    "id": "C1_What is the current state of the home cleaning ser.docx_create_risk_assessment_20250923_152259",
+    "source_file": "What is the current state of the home cleaning ser.docx",
+    "created_at": "2025-09-23T15:22:59.291516",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "risk_assessment",
+      "size": "large",
+      "title": "Labor Shortage Risks",
+      "risks": [
+        {
+          "title": "High Turnover Rates",
+          "level": "High",
+          "description": "Annual churn rates reaching 200-400% across various cleaning roles."
+        },
+        {
+          "title": "Operational Costs",
+          "level": "Medium",
+          "description": "Increased costs due to recruitment and training."
+        },
+        {
+          "title": "Service Fulfillment",
+          "level": "High",
+          "description": "Difficulty in fulfilling service contracts due to labor shortages."
+        }
+      ],
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "Labor shortages present significant challenges to the industry, affecting costs and service delivery."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "docx",
+      "file_size": 24811,
+      "component_type": "risk_assessment",
+      "analysis_query": "Extract risk_assessment insights from What is the current state of the home cleaning ser.docx"
+    }
+  },
+  {
+    "id": "C1_What is the current state of the home cleaning ser.docx_create_text_analysis_20250923_152259",
+    "source_file": "What is the current state of the home cleaning ser.docx",
+    "created_at": "2025-09-23T15:22:59.291541",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "text_analysis",
+      "size": "medium",
+      "title": "Economic Pressures and Competitive Pricing",
+      "content": "The home cleaning industry faces economic challenges such as rising costs and competitive pricing pressures. With over one million janitorial service businesses in the U.S., competition drives prices down, complicating profit maintenance for quality providers. Additionally, 35% of businesses have reevaluated cleaning budgets to manage costs amidst inflation.",
+      "insights": [
+        "Rising costs are a major concern for 35% of businesses.",
+        "Intense competition affects pricing and profit margins."
+      ],
+      "conclusion": "The industry must balance cost efficiency with quality service delivery to remain competitive.",
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "Economic pressures require strategic cost management and competitive pricing strategies."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "docx",
+      "file_size": 24811,
+      "component_type": "text_analysis",
+      "analysis_query": "Extract text_analysis insights from What is the current state of the home cleaning ser.docx"
+    }
+  },
+  {
+    "id": "C1_What is the current state of the home cleaning ser.docx_create_progress_bar_20250923_152259",
+    "source_file": "What is the current state of the home cleaning ser.docx",
+    "created_at": "2025-09-23T15:22:59.291567",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "progress_bar",
+      "size": "small",
+      "title": "Green Cleaning Market Share 2024",
+      "value": 45,
+      "max_value": 100,
+      "color": "green",
+      "label": "45%",
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "Medium",
+          "key_insight": "Eco-friendly products hold a significant portion of the market, reflecting consumer preference for sustainable options."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "docx",
+      "file_size": 24811,
+      "component_type": "progress_bar",
+      "analysis_query": "Extract progress_bar insights from What is the current state of the home cleaning ser.docx"
+    }
+  },
+  {
+    "id": "C1_What is the current state of the home cleaning ser.docx_create_metric_card_20250923_152447",
+    "source_file": "What is the current state of the home cleaning ser.docx",
+    "created_at": "2025-09-23T15:24:47.888856",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "metric_card",
+      "size": "small",
+      "label": "US Household Adoption Rate",
+      "value": "80%",
+      "color": "orange",
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "80% of dual-income households in the US are expected to use professional cleaning services."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "docx",
+      "file_size": 24811,
+      "component_type": "metric_card",
+      "analysis_query": "Extract metric_card insights from What is the current state of the home cleaning ser.docx"
+    }
+  },
+  {
+    "id": "C1_What is the current state of the home cleaning ser.docx_create_risk_assessment_20250923_152447",
+    "source_file": "What is the current state of the home cleaning ser.docx",
+    "created_at": "2025-09-23T15:24:47.889004",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "risk_assessment",
+      "size": "large",
+      "title": "Labor Shortage Challenges",
+      "risks": [
+        {
+          "title": "High Turnover Rates",
+          "level": "High",
+          "description": "Annual churn rates reaching 200-400% across various cleaning roles."
+        },
+        {
+          "title": "Operational Costs",
+          "level": "Medium",
+          "description": "Increased costs due to constant recruitment and training."
+        },
+        {
+          "title": "Service Fulfillment",
+          "level": "High",
+          "description": "Difficulty in fulfilling service contracts and maintaining quality standards."
+        }
+      ],
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "Labor shortages pose significant risks to the cleaning industry's growth."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "docx",
+      "file_size": 24811,
+      "component_type": "risk_assessment",
+      "analysis_query": "Extract risk_assessment insights from What is the current state of the home cleaning ser.docx"
+    }
+  },
+  {
+    "id": "C1_What is the current state of the home cleaning ser.docx_create_text_analysis_20250923_152447",
+    "source_file": "What is the current state of the home cleaning ser.docx",
+    "created_at": "2025-09-23T15:24:47.889047",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "text_analysis",
+      "size": "large",
+      "title": "Future Outlook of Home Cleaning Services",
+      "content": "The home cleaning service industry is poised for continued growth driven by demographic changes, lifestyle preferences, and technological advancements. Key trends include outcome-based service agreements, flexible scheduling, and increased technology integration. Despite challenges such as labor shortages and economic pressures, the industry remains resilient and adaptable.",
+      "insights": [
+        "Service evolution towards performance metrics",
+        "Demand for flexible scheduling",
+        "Technology integration in service delivery"
+      ],
+      "conclusion": "The industry's resilience and adaptability ensure its continued expansion despite current challenges.",
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "The industry is resilient and continues to grow despite facing significant challenges."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "docx",
+      "file_size": 24811,
+      "component_type": "text_analysis",
+      "analysis_query": "Extract text_analysis insights from What is the current state of the home cleaning ser.docx"
+    }
+  },
+  {
+    "id": "C1_What is the current state of the home cleaning ser.docx_create_metric_card_20250923_152558",
+    "source_file": "What is the current state of the home cleaning ser.docx",
+    "created_at": "2025-09-23T15:25:58.231799",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "metric_card",
+      "size": "small",
+      "label": "US Household Adoption Rate",
+      "value": "10%",
+      "color": "orange",
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "Currently, 10% of US households pay for professional home cleaning services, with expectations of significant growth."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "docx",
+      "file_size": 24811,
+      "component_type": "metric_card",
+      "analysis_query": "Extract metric_card insights from What is the current state of the home cleaning ser.docx"
+    }
+  },
+  {
+    "id": "C1_What is the current state of the home cleaning ser.docx_create_text_analysis_20250923_152558",
+    "source_file": "What is the current state of the home cleaning ser.docx",
+    "created_at": "2025-09-23T15:25:58.232025",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "text_analysis",
+      "size": "large",
+      "title": "Economic Pressures and Sustainability Trends",
+      "content": "The cleaning industry faces economic challenges such as rising costs and competitive pricing pressures. However, there is a growing trend towards sustainability, with consumers increasingly choosing natural cleaning solutions. The green cleaning products market is expected to grow significantly, reflecting a shift towards environmentally responsible options.",
+      "insights": [
+        "46% of consumers prefer natural cleaning solutions",
+        "Green cleaning market to reach $430.61 billion by 2030"
+      ],
+      "conclusion": "Despite economic pressures, the industry's shift towards sustainability offers new growth opportunities.",
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "Economic pressures and sustainability trends are shaping the future of the cleaning industry."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "docx",
+      "file_size": 24811,
+      "component_type": "text_analysis",
+      "analysis_query": "Extract text_analysis insights from What is the current state of the home cleaning ser.docx"
+    }
+  },
+  {
+    "id": "C1_What is the current state of the home cleaning ser.docx_create_metric_card_20250923_152909",
+    "source_file": "What is the current state of the home cleaning ser.docx",
+    "created_at": "2025-09-23T15:29:09.466507",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "metric_card",
+      "size": "small",
+      "label": "U.S. Household Adoption Rate",
+      "value": "10%",
+      "color": "orange",
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "Currently, 10% of U.S. households use professional cleaning services, with expectations for significant growth."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "docx",
+      "file_size": 24811,
+      "component_type": "metric_card",
+      "analysis_query": "Extract metric_card insights from What is the current state of the home cleaning ser.docx"
+    }
+  },
+  {
+    "id": "C1_What is the current state of the home cleaning ser.docx_create_metric_card_20250923_152909",
+    "source_file": "What is the current state of the home cleaning ser.docx",
+    "created_at": "2025-09-23T15:29:09.466537",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "metric_card",
+      "size": "small",
+      "label": "Robotic Cleaning Market CAGR",
+      "value": "21.5%",
+      "color": "purple",
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "The robotic cleaning market is rapidly expanding with a CAGR of 21.5%."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "docx",
+      "file_size": 24811,
+      "component_type": "metric_card",
+      "analysis_query": "Extract metric_card insights from What is the current state of the home cleaning ser.docx"
+    }
+  },
+  {
+    "id": "C1_What is the current state of the home cleaning ser.docx_create_text_analysis_20250923_152909",
+    "source_file": "What is the current state of the home cleaning ser.docx",
+    "created_at": "2025-09-23T15:29:09.466656",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "text_analysis",
+      "size": "large",
+      "title": "Market Challenges and Economic Pressures",
+      "content": "The cleaning industry faces significant challenges, including a labor shortage crisis affecting 61% of contractors and high turnover rates. Economic pressures include rising costs and competitive pricing pressure, which impact profit margins. Sustainability trends are also influencing consumer preferences, with a shift towards eco-friendly products.",
+      "insights": [
+        "Labor shortages create operational challenges.",
+        "Rising costs and competition affect profitability.",
+        "Sustainability trends are reshaping consumer choices."
+      ],
+      "conclusion": "Despite challenges, the industry remains resilient, driven by fundamental needs for convenience and hygiene.",
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "The industry must navigate labor shortages and economic pressures while adapting to sustainability trends."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "docx",
+      "file_size": 24811,
+      "component_type": "text_analysis",
+      "analysis_query": "Extract text_analysis insights from What is the current state of the home cleaning ser.docx"
+    }
+  },
+  {
+    "id": "C1_What is the current state of the home cleaning ser.docx_create_financial_chart_20250923_152909",
+    "source_file": "What is the current state of the home cleaning ser.docx",
+    "created_at": "2025-09-23T15:29:09.466694",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "financial_chart",
+      "size": "medium",
+      "title": "Market Growth Projections",
+      "data": [
+        {
+          "label": "2024",
+          "value": 67.48
+        },
+        {
+          "label": "2025",
+          "value": 73.54
+        },
+        {
+          "label": "2030",
+          "value": 111.53
+        }
+      ],
+      "chart_type": "line",
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "The home cleaning services market is projected to grow steadily over the next decade."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "docx",
+      "file_size": 24811,
+      "component_type": "financial_chart",
+      "analysis_query": "Extract financial_chart insights from What is the current state of the home cleaning ser.docx"
+    }
+  },
+  {
+    "id": "C1_What is the current state of the home cleaning ser.docx_create_metric_card_20250923_153008",
+    "source_file": "What is the current state of the home cleaning ser.docx",
+    "created_at": "2025-09-23T15:30:08.020765",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "metric_card",
+      "size": "small",
+      "label": "Global Household Adoption Rate",
+      "value": "15%",
+      "color": "purple",
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "Globally, 15% of households use professional cleaning services, with higher rates in developed regions."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "docx",
+      "file_size": 24811,
+      "component_type": "metric_card",
+      "analysis_query": "Extract metric_card insights from What is the current state of the home cleaning ser.docx"
+    }
+  },
+  {
+    "id": "C1_What is the current state of the home cleaning ser.docx_create_text_analysis_20250923_153008",
+    "source_file": "What is the current state of the home cleaning ser.docx",
+    "created_at": "2025-09-23T15:30:08.020872",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "text_analysis",
+      "size": "large",
+      "title": "Technological Advancements in Home Cleaning",
+      "content": "The home cleaning industry is undergoing a digital transformation with the adoption of app-based services and emerging technologies like IoT, AI, and robotic cleaning. These innovations are enhancing service efficiency and customer satisfaction.",
+      "insights": [
+        "Over 70% of bookings are made through digital platforms.",
+        "Robotic cleaning market to grow at 21.5% CAGR.",
+        "IoT enables smart home integration."
+      ],
+      "conclusion": "Technology is a key driver in the evolution of the home cleaning industry, offering new opportunities for growth and efficiency.",
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "Digital transformation is reshaping the home cleaning industry, with significant impacts on service delivery and customer engagement."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "docx",
+      "file_size": 24811,
+      "component_type": "text_analysis",
+      "analysis_query": "Extract text_analysis insights from What is the current state of the home cleaning ser.docx"
+    }
+  },
+  {
+    "id": "C1_What is the current state of the home cleaning ser.docx_create_text_analysis_20250923_153130",
+    "source_file": "What is the current state of the home cleaning ser.docx",
+    "created_at": "2025-09-23T15:31:30.839144",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "text_analysis",
+      "size": "large",
+      "title": "Technology Adoption in Home Cleaning Services",
+      "content": "The home cleaning services industry is undergoing significant digital transformation. Online booking platforms and mobile apps have become prevalent, with over 70% of bookings made through digital platforms in 2024. Technologies such as IoT, AI, and robotic cleaning are being integrated to enhance service efficiency and customer experience.",
+      "insights": [
+        "70% of bookings are digital",
+        "Robotic cleaning market growing at 21.5% CAGR"
+      ],
+      "conclusion": "The industry is rapidly adopting technology to improve efficiency and customer satisfaction.",
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "Explores how technology is reshaping the home cleaning services industry."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "docx",
+      "file_size": 24811,
+      "component_type": "text_analysis",
+      "analysis_query": "Extract text_analysis insights from What is the current state of the home cleaning ser.docx"
+    }
+  },
+  {
+    "id": "C1_What is the current state of the home cleaning ser.docx_create_financial_chart_20250923_153235",
+    "source_file": "What is the current state of the home cleaning ser.docx",
+    "created_at": "2025-09-23T15:32:35.857177",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "financial_chart",
+      "size": "medium",
+      "title": "Market Growth Projection (2024-2030)",
+      "data": [
+        {
+          "label": "2024",
+          "value": 67.48
+        },
+        {
+          "label": "2025",
+          "value": 73.54
+        },
+        {
+          "label": "2030",
+          "value": 111.53
+        }
+      ],
+      "chart_type": "line",
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "The chart shows a steady increase in market size, highlighting the industry's growth trajectory."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "docx",
+      "file_size": 24811,
+      "component_type": "financial_chart",
+      "analysis_query": "Extract financial_chart insights from What is the current state of the home cleaning ser.docx"
+    }
+  },
+  {
+    "id": "C1_What is the current state of the home cleaning ser.docx_create_text_analysis_20250923_153235",
+    "source_file": "What is the current state of the home cleaning ser.docx",
+    "created_at": "2025-09-23T15:32:35.857261",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "text_analysis",
+      "size": "large",
+      "title": "Technology Adoption in Home Cleaning",
+      "content": "The home cleaning industry is undergoing a digital transformation with significant technology adoption. Online booking platforms and mobile apps are becoming the norm, with over 70% of bookings made digitally. Technologies like robotic cleaning, IoT, and AI are enhancing service efficiency and customer experience.",
+      "insights": [
+        "70% of bookings are digital",
+        "Robotic cleaning market growing at 21.5% CAGR",
+        "IoT and AI are key technological drivers"
+      ],
+      "conclusion": "Technology is a critical enabler of growth and efficiency in the home cleaning industry.",
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "Digital transformation is reshaping the industry, improving service delivery and customer engagement."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "docx",
+      "file_size": 24811,
+      "component_type": "text_analysis",
+      "analysis_query": "Extract text_analysis insights from What is the current state of the home cleaning ser.docx"
+    }
+  },
+  {
+    "id": "C1_What is the current state of the home cleaning ser.docx_create_risk_assessment_20250923_153235",
+    "source_file": "What is the current state of the home cleaning ser.docx",
+    "created_at": "2025-09-23T15:32:35.857304",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "risk_assessment",
+      "size": "medium",
+      "title": "Challenges in the Cleaning Industry",
+      "risks": [
+        {
+          "title": "Labor Shortage",
+          "level": "High",
+          "description": "61% of contractors face labor shortages, leading to increased costs and operational challenges."
+        },
+        {
+          "title": "Economic Pressures",
+          "level": "Medium",
+          "description": "Rising costs and competitive pricing pressure are affecting profit margins."
+        },
+        {
+          "title": "Sustainability Demands",
+          "level": "Medium",
+          "description": "Growing demand for eco-friendly products increases costs but offers long-term benefits."
+        }
+      ],
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "The industry faces significant challenges that could impact growth and profitability."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "docx",
+      "file_size": 24811,
+      "component_type": "risk_assessment",
+      "analysis_query": "Extract risk_assessment insights from What is the current state of the home cleaning ser.docx"
+    }
+  },
+  {
+    "id": "C1_market_metrics.json_create_metric_card_20250923_153722",
+    "source_file": "market_metrics.json",
+    "created_at": "2025-09-23T15:37:22.898393",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "metric_card",
+      "size": "small",
+      "label": "Current Market Size (2024)",
+      "value": "$45.2B",
+      "color": "blue",
+      "sources": [
+        {
+          "filename": "market_metrics.json",
+          "relevance": "High",
+          "key_insight": "The current market size for 2024 is $45.2 billion, indicating a substantial market presence."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "json",
+      "file_size": 1533,
+      "component_type": "metric_card",
+      "analysis_query": "Extract metric_card insights from market_metrics.json"
+    }
+  },
+  {
+    "id": "C1_market_metrics.json_create_metric_card_20250923_153722",
+    "source_file": "market_metrics.json",
+    "created_at": "2025-09-23T15:37:22.898481",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "metric_card",
+      "size": "small",
+      "label": "Projected Market Size (2029)",
+      "value": "$78.4B",
+      "color": "green",
+      "sources": [
+        {
+          "filename": "market_metrics.json",
+          "relevance": "High",
+          "key_insight": "The market is projected to grow to $78.4 billion by 2029, showing significant growth potential."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "json",
+      "file_size": 1533,
+      "component_type": "metric_card",
+      "analysis_query": "Extract metric_card insights from market_metrics.json"
+    }
+  },
+  {
+    "id": "C1_market_metrics.json_create_metric_card_20250923_153722",
+    "source_file": "market_metrics.json",
+    "created_at": "2025-09-23T15:37:22.898509",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "metric_card",
+      "size": "small",
+      "label": "Compound Annual Growth Rate (CAGR)",
+      "value": "23.5%",
+      "color": "orange",
+      "sources": [
+        {
+          "filename": "market_metrics.json",
+          "relevance": "High",
+          "key_insight": "The market is expected to grow at a CAGR of 23.5% from 2024 to 2029."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "json",
+      "file_size": 1533,
+      "component_type": "metric_card",
+      "analysis_query": "Extract metric_card insights from market_metrics.json"
+    }
+  },
+  {
+    "id": "C1_market_metrics.json_create_data_table_20250923_153722",
+    "source_file": "market_metrics.json",
+    "created_at": "2025-09-23T15:37:22.898534",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "data_table",
+      "size": "medium",
+      "title": "Market Segments Overview",
+      "headers": [
+        "Segment",
+        "Market Share",
+        "Growth Rate",
+        "Key Players"
+      ],
+      "rows": [
+        [
+          "Residential Robotics",
+          "68%",
+          "25.2%",
+          "iRobot, Dyson, Shark"
+        ],
+        [
+          "Commercial Cleaning",
+          "24%",
+          "28.1%",
+          "Brain Corp, SoftBank Robotics"
+        ],
+        [
+          "Industrial Automation",
+          "8%",
+          "31.5%",
+          "Kuka, ABB"
+        ]
+      ],
+      "sources": [
+        {
+          "filename": "market_metrics.json",
+          "relevance": "High",
+          "key_insight": "Overview of market segments with their respective market shares, growth rates, and key players."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "json",
+      "file_size": 1533,
+      "component_type": "data_table",
+      "analysis_query": "Extract data_table insights from market_metrics.json"
+    }
+  },
+  {
+    "id": "C1_market_metrics.json_create_data_table_20250923_153722",
+    "source_file": "market_metrics.json",
+    "created_at": "2025-09-23T15:37:22.898558",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "data_table",
+      "size": "medium",
+      "title": "Regional Market Breakdown",
+      "headers": [
+        "Region",
+        "Market Size",
+        "Growth Rate",
+        "Key Trends"
+      ],
+      "rows": [
+        [
+          "North America",
+          "$12.5B",
+          "22.1%",
+          "Smart home adoption, Labor cost increases"
+        ],
+        [
+          "Europe",
+          "$8.9B",
+          "21.8%",
+          "Sustainability focus, Energy efficiency"
+        ],
+        [
+          "Asia Pacific",
+          "$15.2B",
+          "26.7%",
+          "Manufacturing automation, Urbanization"
+        ]
+      ],
+      "sources": [
+        {
+          "filename": "market_metrics.json",
+          "relevance": "High",
+          "key_insight": "Detailed regional breakdown showing market sizes, growth rates, and key trends."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "json",
+      "file_size": 1533,
+      "component_type": "data_table",
+      "analysis_query": "Extract data_table insights from market_metrics.json"
+    }
+  },
+  {
+    "id": "C1_market_metrics.json_create_list_items_20250923_153722",
+    "source_file": "market_metrics.json",
+    "created_at": "2025-09-23T15:37:22.898579",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "list_items",
+      "size": "small",
+      "title": "Key Technology Trends",
+      "items": [
+        "AI-powered navigation",
+        "IoT integration",
+        "Voice control",
+        "Multi-surface cleaning",
+        "Autonomous charging"
+      ],
+      "sources": [
+        {
+          "filename": "market_metrics.json",
+          "relevance": "High",
+          "key_insight": "List of emerging technology trends shaping the market."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "json",
+      "file_size": 1533,
+      "component_type": "list_items",
+      "analysis_query": "Extract list_items insights from market_metrics.json"
+    }
+  },
+  {
+    "id": "C1_market_metrics.json_create_data_table_20250923_153722",
+    "source_file": "market_metrics.json",
+    "created_at": "2025-09-23T15:37:22.898602",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "data_table",
+      "size": "medium",
+      "title": "Investment Metrics",
+      "headers": [
+        "Metric",
+        "Value"
+      ],
+      "rows": [
+        [
+          "Funding Rounds (2024)",
+          "47"
+        ],
+        [
+          "Total Funding",
+          "$892M"
+        ],
+        [
+          "Average Deal Size",
+          "$18.9M"
+        ],
+        [
+          "Top Investors",
+          "Sequoia, Andreessen Horowitz, GV"
+        ]
+      ],
+      "sources": [
+        {
+          "filename": "market_metrics.json",
+          "relevance": "High",
+          "key_insight": "Investment metrics highlighting funding rounds, total funding, average deal size, and top investors."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "json",
+      "file_size": 1533,
+      "component_type": "data_table",
+      "analysis_query": "Extract data_table insights from market_metrics.json"
+    }
+  },
+  {
+    "id": "C1_market_analysis.txt_create_metric_card_20250923_153747",
+    "source_file": "market_analysis.txt",
+    "created_at": "2025-09-23T15:37:47.302271",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "metric_card",
+      "size": "small",
+      "label": "Market Size by 2029",
+      "value": "$45.2B",
+      "color": "blue",
+      "sources": [
+        {
+          "filename": "market_analysis.txt",
+          "relevance": "High",
+          "key_insight": "Projected market size for robotic vacuums by 2029."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "txt",
+      "file_size": 723,
+      "component_type": "metric_card",
+      "analysis_query": "Extract metric_card insights from market_analysis.txt"
+    }
+  },
+  {
+    "id": "C1_market_analysis.txt_create_metric_card_20250923_153747",
+    "source_file": "market_analysis.txt",
+    "created_at": "2025-09-23T15:37:47.302397",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "metric_card",
+      "size": "small",
+      "label": "CAGR",
+      "value": "23.5%",
+      "color": "green",
+      "sources": [
+        {
+          "filename": "market_analysis.txt",
+          "relevance": "High",
+          "key_insight": "Compound annual growth rate for the robotic vacuum market."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "txt",
+      "file_size": 723,
+      "component_type": "metric_card",
+      "analysis_query": "Extract metric_card insights from market_analysis.txt"
+    }
+  },
+  {
+    "id": "C1_market_analysis.txt_create_data_table_20250923_153747",
+    "source_file": "market_analysis.txt",
+    "created_at": "2025-09-23T15:37:47.302457",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "data_table",
+      "size": "medium",
+      "title": "Regional Market Projections for 2024",
+      "headers": [
+        "Region",
+        "Market Size",
+        "Key Driver"
+      ],
+      "rows": [
+        [
+          "North America",
+          "$12.5B",
+          "High disposable income"
+        ],
+        [
+          "Europe",
+          "$8.9B",
+          "Energy efficiency"
+        ],
+        [
+          "Asia-Pacific",
+          "$15.2B",
+          "Largest growth potential"
+        ]
+      ],
+      "sources": [
+        {
+          "filename": "market_analysis.txt",
+          "relevance": "High",
+          "key_insight": "Market size projections for key regions in 2024."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "txt",
+      "file_size": 723,
+      "component_type": "data_table",
+      "analysis_query": "Extract data_table insights from market_analysis.txt"
+    }
+  },
+  {
+    "id": "C1_market_analysis.txt_create_competitor_analysis_20250923_153747",
+    "source_file": "market_analysis.txt",
+    "created_at": "2025-09-23T15:37:47.302521",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "competitor_analysis",
+      "size": "medium",
+      "title": "Market Leaders in Robotic Vacuum Industry",
+      "competitors": [
+        {
+          "name": "iRobot",
+          "market_share": "35%",
+          "key_strength": "Strong brand presence",
+          "position": "Leader"
+        },
+        {
+          "name": "Dyson",
+          "market_share": "18%",
+          "key_strength": "Innovative technology",
+          "position": "Leader"
+        },
+        {
+          "name": "Emerging Players",
+          "market_share": "N/A",
+          "key_strength": "Focus on commercial applications",
+          "position": "Challenger"
+        }
+      ],
+      "sources": [
+        {
+          "filename": "market_analysis.txt",
+          "relevance": "High",
+          "key_insight": "Analysis of key competitors in the robotic vacuum market."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "txt",
+      "file_size": 723,
+      "component_type": "competitor_analysis",
+      "analysis_query": "Extract competitor_analysis insights from market_analysis.txt"
+    }
+  },
+  {
+    "id": "C1_market_analysis.txt_create_list_items_20250923_153747",
+    "source_file": "market_analysis.txt",
+    "created_at": "2025-09-23T15:37:47.302565",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "list_items",
+      "size": "small",
+      "title": "Key Drivers of Market Growth",
+      "items": [
+        "Increasing consumer adoption of smart home technology",
+        "Rising labor costs",
+        "Improved AI navigation systems"
+      ],
+      "sources": [
+        {
+          "filename": "market_analysis.txt",
+          "relevance": "High",
+          "key_insight": "Factors driving the growth of the robotic vacuum market."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "txt",
+      "file_size": 723,
+      "component_type": "list_items",
+      "analysis_query": "Extract list_items insights from market_analysis.txt"
+    }
+  },
+  {
+    "id": "C1_market_analysis.txt_create_list_items_20250923_153747",
+    "source_file": "market_analysis.txt",
+    "created_at": "2025-09-23T15:37:47.302612",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "list_items",
+      "size": "medium",
+      "title": "Technology Trends in Robotic Vacuums",
+      "items": [
+        "AI-powered navigation and mapping",
+        "Integration with smart home ecosystems",
+        "Sustainable materials and energy efficiency",
+        "Multi-surface cleaning capabilities"
+      ],
+      "sources": [
+        {
+          "filename": "market_analysis.txt",
+          "relevance": "High",
+          "key_insight": "Current technology trends in the robotic vacuum market."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "txt",
+      "file_size": 723,
+      "component_type": "list_items",
+      "analysis_query": "Extract list_items insights from market_analysis.txt"
+    }
+  },
+  {
+    "id": "C1_competitive_landscape.txt_create_competitor_analysis_20250923_153817",
+    "source_file": "competitive_landscape.txt",
+    "created_at": "2025-09-23T15:38:17.030610",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "competitor_analysis",
+      "size": "large",
+      "title": "Competitor Analysis in Robotic Cleaning Space",
+      "competitors": [
+        {
+          "name": "iRobot (Roomba)",
+          "market_share": "35%",
+          "key_strength": "Brand recognition, retail presence, ecosystem",
+          "position": "Market Leader"
+        },
+        {
+          "name": "Dyson",
+          "market_share": "18%",
+          "key_strength": "Engineering excellence, suction power",
+          "position": "Premium Positioning"
+        },
+        {
+          "name": "Shark",
+          "market_share": "12%",
+          "key_strength": "Competitive pricing, strong marketing",
+          "position": "Value Segment"
+        },
+        {
+          "name": "Eufy (Anker)",
+          "market_share": "8%",
+          "key_strength": "Direct-to-consumer, good value",
+          "position": "Online-First"
+        }
+      ],
+      "sources": [
+        {
+          "filename": "competitive_landscape.txt",
+          "relevance": "High",
+          "key_insight": "Overview of primary competitors and their market positions in the robotic cleaning industry."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "txt",
+      "file_size": 940,
+      "component_type": "competitor_analysis",
+      "analysis_query": "Extract competitor_analysis insights from competitive_landscape.txt"
+    }
+  },
+  {
+    "id": "C1_competitive_landscape.txt_create_list_items_20250923_153817",
+    "source_file": "competitive_landscape.txt",
+    "created_at": "2025-09-23T15:38:17.030666",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "list_items",
+      "size": "medium",
+      "title": "Competitive Advantages for New Entrants",
+      "items": [
+        "Advanced AI and machine learning capabilities",
+        "Focus on commercial and enterprise markets",
+        "Sustainable and eco-friendly positioning",
+        "Integration with building management systems"
+      ],
+      "sources": [
+        {
+          "filename": "competitive_landscape.txt",
+          "relevance": "High",
+          "key_insight": "Key advantages that new entrants can leverage to compete in the robotic cleaning market."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "txt",
+      "file_size": 940,
+      "component_type": "list_items",
+      "analysis_query": "Extract list_items insights from competitive_landscape.txt"
+    }
+  },
+  {
+    "id": "C1_competitive_landscape.txt_create_metric_card_20250923_153817",
+    "source_file": "competitive_landscape.txt",
+    "created_at": "2025-09-23T15:38:17.030693",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "metric_card",
+      "size": "small",
+      "label": "iRobot Market Share",
+      "value": "35%",
+      "color": "blue",
+      "sources": [
+        {
+          "filename": "competitive_landscape.txt",
+          "relevance": "High",
+          "key_insight": "iRobot holds the largest market share in the robotic cleaning space."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "txt",
+      "file_size": 940,
+      "component_type": "metric_card",
+      "analysis_query": "Extract metric_card insights from competitive_landscape.txt"
+    }
+  },
+  {
+    "id": "C1_competitive_landscape.txt_create_metric_card_20250923_153817",
+    "source_file": "competitive_landscape.txt",
+    "created_at": "2025-09-23T15:38:17.030716",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "metric_card",
+      "size": "small",
+      "label": "Dyson Market Share",
+      "value": "18%",
+      "color": "green",
+      "sources": [
+        {
+          "filename": "competitive_landscape.txt",
+          "relevance": "High",
+          "key_insight": "Dyson is positioned as a premium brand with significant market share."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "txt",
+      "file_size": 940,
+      "component_type": "metric_card",
+      "analysis_query": "Extract metric_card insights from competitive_landscape.txt"
+    }
+  },
+  {
+    "id": "C1_competitive_landscape.txt_create_metric_card_20250923_153817",
+    "source_file": "competitive_landscape.txt",
+    "created_at": "2025-09-23T15:38:17.030738",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "metric_card",
+      "size": "small",
+      "label": "Shark Market Share",
+      "value": "12%",
+      "color": "orange",
+      "sources": [
+        {
+          "filename": "competitive_landscape.txt",
+          "relevance": "High",
+          "key_insight": "Shark targets the value segment with competitive pricing."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "txt",
+      "file_size": 940,
+      "component_type": "metric_card",
+      "analysis_query": "Extract metric_card insights from competitive_landscape.txt"
+    }
+  },
+  {
+    "id": "C1_competitive_landscape.txt_create_metric_card_20250923_153817",
+    "source_file": "competitive_landscape.txt",
+    "created_at": "2025-09-23T15:38:17.030758",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "metric_card",
+      "size": "small",
+      "label": "Eufy Market Share",
+      "value": "8%",
+      "color": "purple",
+      "sources": [
+        {
+          "filename": "competitive_landscape.txt",
+          "relevance": "High",
+          "key_insight": "Eufy focuses on direct-to-consumer sales with a growing market share."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "txt",
+      "file_size": 940,
+      "component_type": "metric_card",
+      "analysis_query": "Extract metric_card insights from competitive_landscape.txt"
+    }
+  },
+  {
+    "id": "C1_financial_projections.csv_create_financial_chart_20250923_153845",
+    "source_file": "financial_projections.csv",
+    "created_at": "2025-09-23T15:38:45.410196",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "financial_chart",
+      "size": "large",
+      "title": "Revenue Growth Over Years",
+      "data": [
+        {
+          "label": "2024",
+          "value": 2100000
+        },
+        {
+          "label": "2025",
+          "value": 6800000
+        },
+        {
+          "label": "2026",
+          "value": 18500000
+        },
+        {
+          "label": "2027",
+          "value": 45200000
+        },
+        {
+          "label": "2028",
+          "value": 89600000
+        }
+      ],
+      "chart_type": "line",
+      "sources": [
+        {
+          "filename": "financial_projections.csv",
+          "relevance": "High",
+          "key_insight": "This chart visualizes the revenue growth over the years, showing a significant increase from 2024 to 2028."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "csv",
+      "file_size": 217,
+      "component_type": "financial_chart",
+      "analysis_query": "Extract financial_chart insights from financial_projections.csv"
+    }
+  },
+  {
+    "id": "C1_financial_projections.csv_create_data_table_20250923_153845",
+    "source_file": "financial_projections.csv",
+    "created_at": "2025-09-23T15:38:45.410241",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "data_table",
+      "size": "large",
+      "title": "Annual Financial Projections",
+      "headers": [
+        "Year",
+        "Revenue",
+        "Units",
+        "ARPU",
+        "Growth Rate",
+        "Market Share"
+      ],
+      "rows": [
+        [
+          "2024",
+          "2100000",
+          "15000",
+          "140",
+          "180%",
+          "0.1%"
+        ],
+        [
+          "2025",
+          "6800000",
+          "42000",
+          "162",
+          "224%",
+          "0.3%"
+        ],
+        [
+          "2026",
+          "18500000",
+          "95000",
+          "195",
+          "172%",
+          "0.7%"
+        ],
+        [
+          "2027",
+          "45200000",
+          "198000",
+          "228",
+          "144%",
+          "1.5%"
+        ],
+        [
+          "2028",
+          "89600000",
+          "350000",
+          "256",
+          "98%",
+          "2.8%"
+        ]
+      ],
+      "sources": [
+        {
+          "filename": "financial_projections.csv",
+          "relevance": "High",
+          "key_insight": "This table provides a detailed view of the financial projections including revenue, units, ARPU, growth rate, and market share from 2024 to 2028."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "csv",
+      "file_size": 217,
+      "component_type": "data_table",
+      "analysis_query": "Extract data_table insights from financial_projections.csv"
+    }
+  },
+  {
+    "id": "C1_financial_projections.csv_create_metric_card_20250923_153845",
+    "source_file": "financial_projections.csv",
+    "created_at": "2025-09-23T15:38:45.410261",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "metric_card",
+      "size": "small",
+      "label": "Highest Revenue Year",
+      "value": "$89,600,000 (2028)",
+      "color": "green",
+      "sources": [
+        {
+          "filename": "financial_projections.csv",
+          "relevance": "High",
+          "key_insight": "2028 is projected to have the highest revenue in the given period."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "csv",
+      "file_size": 217,
+      "component_type": "metric_card",
+      "analysis_query": "Extract metric_card insights from financial_projections.csv"
+    }
+  },
+  {
+    "id": "C1_financial_projections.csv_create_metric_card_20250923_153845",
+    "source_file": "financial_projections.csv",
+    "created_at": "2025-09-23T15:38:45.410279",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "metric_card",
+      "size": "small",
+      "label": "Highest Growth Rate",
+      "value": "224% (2025)",
+      "color": "blue",
+      "sources": [
+        {
+          "filename": "financial_projections.csv",
+          "relevance": "High",
+          "key_insight": "The highest growth rate is expected in 2025."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "csv",
+      "file_size": 217,
+      "component_type": "metric_card",
+      "analysis_query": "Extract metric_card insights from financial_projections.csv"
+    }
+  },
+  {
+    "id": "C1_financial_projections.csv_create_progress_bar_20250923_153845",
+    "source_file": "financial_projections.csv",
+    "created_at": "2025-09-23T15:38:45.410317",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "progress_bar",
+      "size": "medium",
+      "title": "Market Share Progression",
+      "value": 2.8,
+      "max_value": 5.0,
+      "color": "purple",
+      "label": "2.8% in 2028",
+      "sources": [
+        {
+          "filename": "financial_projections.csv",
+          "relevance": "Medium",
+          "key_insight": "Shows the progression towards a 5% market share by 2028."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "csv",
+      "file_size": 217,
+      "component_type": "progress_bar",
+      "analysis_query": "Extract progress_bar insights from financial_projections.csv"
+    }
+  },
+  {
+    "id": "C1_financial_projections.csv_create_list_items_20250923_153845",
+    "source_file": "financial_projections.csv",
+    "created_at": "2025-09-23T15:38:45.410335",
+    "analysis_type": "file_analysis",
+    "component": {
+      "type": "list_items",
+      "size": "medium",
+      "title": "Key Insights from Financial Projections",
+      "items": [
+        "Significant revenue growth projected from 2024 to 2028.",
+        "ARPU increases steadily each year.",
+        "Market share grows from 0.1% in 2024 to 2.8% in 2028.",
+        "2025 has the highest growth rate at 224%."
+      ],
+      "sources": [
+        {
+          "filename": "financial_projections.csv",
+          "relevance": "High",
+          "key_insight": "Highlights the main insights from the financial projections."
+        }
+      ]
+    },
+    "metadata": {
+      "file_type": "csv",
+      "file_size": 217,
+      "component_type": "list_items",
+      "analysis_query": "Extract list_items insights from financial_projections.csv"
+    }
+  }
+]

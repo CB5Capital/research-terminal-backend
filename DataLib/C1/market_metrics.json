@@ -1,0 +1,59 @@
+{
+  "market_analysis": {
+    "market_size": {
+      "current_2024": "$45.2B",
+      "projected_2029": "$78.4B",
+      "cagr": "23.5%"
+    },
+    "segments": [
+      {
+        "name": "Residential Robotics",
+        "share": "68%",
+        "growth_rate": "25.2%",
+        "key_players": ["iRobot", "Dyson", "Shark"]
+      },
+      {
+        "name": "Commercial Cleaning",
+        "share": "24%",
+        "growth_rate": "28.1%",
+        "key_players": ["Brain Corp", "SoftBank Robotics"]
+      },
+      {
+        "name": "Industrial Automation",
+        "share": "8%",
+        "growth_rate": "31.5%",
+        "key_players": ["Kuka", "ABB"]
+      }
+    ],
+    "regional_breakdown": {
+      "north_america": {
+        "market_size": "$12.5B",
+        "growth_rate": "22.1%",
+        "key_trends": ["Smart home adoption", "Labor cost increases"]
+      },
+      "europe": {
+        "market_size": "$8.9B", 
+        "growth_rate": "21.8%",
+        "key_trends": ["Sustainability focus", "Energy efficiency"]
+      },
+      "asia_pacific": {
+        "market_size": "$15.2B",
+        "growth_rate": "26.7%",
+        "key_trends": ["Manufacturing automation", "Urbanization"]
+      }
+    }
+  },
+  "technology_trends": [
+    "AI-powered navigation",
+    "IoT integration",
+    "Voice control",
+    "Multi-surface cleaning",
+    "Autonomous charging"
+  ],
+  "investment_metrics": {
+    "funding_rounds_2024": 47,
+    "total_funding": "$892M",
+    "average_deal_size": "$18.9M",
+    "top_investors": ["Sequoia", "Andreessen Horowitz", "GV"]
+  }
+}

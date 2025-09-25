@@ -1,0 +1,27 @@
+Primary competitors in the robotic cleaning space:
+
+1. iRobot (Roomba) - Market Leader
+   - Market share: 35%
+   - Strengths: Brand recognition, retail presence, ecosystem
+   - Weaknesses: Premium pricing, limited commercial focus
+
+2. Dyson - Premium Positioning  
+   - Market share: 18%
+   - Strengths: Engineering excellence, suction power
+   - Weaknesses: High price point, limited AI features
+
+3. Shark - Value Segment
+   - Market share: 12% 
+   - Strengths: Competitive pricing, strong marketing
+   - Weaknesses: Basic navigation, reliability concerns
+
+4. Eufy (Anker) - Online-First
+   - Market share: 8%
+   - Strengths: Direct-to-consumer, good value
+   - Weaknesses: Limited brand awareness, service network
+
+Competitive Advantages for New Entrants:
+- Advanced AI and machine learning capabilities
+- Focus on commercial and enterprise markets
+- Sustainable and eco-friendly positioning
+- Integration with building management systems

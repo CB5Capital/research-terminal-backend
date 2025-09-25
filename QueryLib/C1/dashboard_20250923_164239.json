@@ -1,0 +1,153 @@
+{
+  "title": "Technological Transformation in Cleaning Services",
+  "subtitle": "Insights into the tech-driven changes in the cleaning industry",
+  "layout": "grid",
+  "columns": 3,
+  "components": [
+    {
+      "type": "text_analysis",
+      "size": "medium",
+      "title": "Technological Transformation in Cleaning Services",
+      "content": "The cleaning service industry is rapidly adopting digital technologies, with over 70% of bookings made through online platforms. Innovations such as app-based services, robotic cleaning, IoT integration, and AI are transforming service delivery and efficiency.",
+      "insights": [
+        "70% of bookings are digital",
+        "Robotic cleaning market growing at 21.5% CAGR",
+        "IoT and AI enhancing service efficiency"
+      ],
+      "conclusion": "Technology is a key driver of growth and efficiency in the home cleaning service market.",
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "Digital transformation is reshaping the home cleaning service industry, enhancing efficiency and customer experience."
+        }
+      ],
+      "position": {
+        "row": 1,
+        "col": 1
+      }
+    },
+    {
+      "type": "financial_chart",
+      "size": "large",
+      "title": "Robotic Cleaning Market Growth",
+      "data": [
+        {
+          "label": "2022",
+          "value": 9.8
+        },
+        {
+          "label": "2027",
+          "value": 25.9
+        }
+      ],
+      "chart_type": "line",
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "The robotic cleaning market is expected to grow significantly, with a 21.5% CAGR."
+        }
+      ],
+      "position": {
+        "row": 1,
+        "col": 2
+      }
+    },
+    {
+      "type": "list_items",
+      "size": "medium",
+      "title": "Key Technology Trends",
+      "items": [
+        "AI-powered navigation",
+        "IoT integration",
+        "Voice control",
+        "Multi-surface cleaning",
+        "Autonomous charging"
+      ],
+      "sources": [
+        {
+          "filename": "market_metrics.json",
+          "relevance": "High",
+          "key_insight": "List of emerging technology trends shaping the market."
+        }
+      ],
+      "position": {
+        "row": 1,
+        "col": 3
+      }
+    },
+    {
+      "type": "list_items",
+      "size": "medium",
+      "title": "Key Drivers of Market Growth",
+      "items": [
+        "Increasing consumer adoption of smart home technology",
+        "Rising labor costs",
+        "Improved AI navigation systems"
+      ],
+      "sources": [
+        {
+          "filename": "market_analysis.txt",
+          "relevance": "High",
+          "key_insight": "Factors driving the growth of the robotic vacuum market."
+        }
+      ],
+      "position": {
+        "row": 2,
+        "col": 1
+      }
+    },
+    {
+      "type": "metric_card",
+      "size": "small",
+      "label": "U.S. Household Adoption Rate",
+      "value": "10%",
+      "color": "orange",
+      "sources": [
+        {
+          "filename": "What is the current state of the home cleaning ser.docx",
+          "relevance": "High",
+          "key_insight": "Currently, 10% of U.S. households use professional cleaning services, with expectations for significant growth."
+        }
+      ],
+      "position": {
+        "row": 2,
+        "col": 2
+      }
+    },
+    {
+      "type": "metric_card",
+      "size": "small",
+      "label": "Current Market Size (2024)",
+      "value": "$45.2B",
+      "color": "blue",
+      "sources": [
+        {
+          "filename": "market_metrics.json",
+          "relevance": "High",
+          "key_insight": "The current market size for 2024 is $45.2 billion, indicating a substantial market presence."
+        }
+      ],
+      "position": {
+        "row": 2,
+        "col": 3
+      }
+    }
+  ],
+  "metadata": {
+    "query": "Context: I am viewing a dashboard component with the following data:\n\nComponent Type: text analysis\nComponent Title: Technological Transformation in Cleaning Services\nComponent Data: {\n  \"type\": \"text_analysis\",\n  \"size\": \"medium\",\n  \"title\": \"Technological Transformation in Cleaning Services\",\n  \"content\": \"The cleaning service industry is rapidly adopting digital technologies, with over 70% of bookings made through online platforms. Innovations such as app-based services, robotic cleaning, IoT integration, and AI are transforming service delivery and efficiency.\",\n  \"insights\": [\n    \"70% of bookings are digital\",\n    \"Robotic cleaning market growing at 21.5% CAGR\",\n    \"IoT and AI enhancing service efficiency\"\n  ],\n  \"conclusion\": \"Technology is a key driver of growth and efficiency in the home cleaning service market.\",\n  \"sources\": [\n    {\n      \"filename\": \"What is the current state of the home cleaning ser.docx\",\n      \"relevance\": \"High\",\n      \"key_insight\": \"Digital transformation is reshaping the home cleaning service industry, enhancing efficiency and customer experience.\"\n    }\n  ],\n  \"position\": {\n    \"row\": 1,\n    \"col\": 2\n  },\n  \"x\": 463,\n  \"y\": 31,\n  \"width\": 463,\n  \"height\": 400,\n  \"style\": {\n    \"width\": \"463px\",\n    \"height\": \"400px\",\n    \"position\": \"absolute\",\n    \"left\": \"463px\",\n    \"top\": \"31px\"\n  }\n}\n\nUser Question: what is leading the tech transformation?",
+    "case_name": "C1",
+    "items_selected": 6,
+    "total_items_available": 51,
+    "selected_item_ids": [
+      "C1_What is the current state of the home cleaning ser.docx_create_text_analysis_20250923_115709",
+      "C1_What is the current state of the home cleaning ser.docx_create_financial_chart_20250923_115709",
+      "C1_market_metrics.json_create_list_items_20250923_153722",
+      "C1_market_analysis.txt_create_list_items_20250923_153747",
+      "C1_What is the current state of the home cleaning ser.docx_create_metric_card_20250923_152909",
+      "C1_market_metrics.json_create_metric_card_20250923_153722"
+    ],
+    "created_at": "2025-09-23T16:42:39.062754"
+  }
+}
