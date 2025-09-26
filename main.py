@@ -37,6 +37,10 @@ class ChatContinueRequest(BaseModel):
     conversation_history: list = []
     dashboard_id: str = None
 
+class NewProjectRequest(BaseModel):
+    project_id: str
+    project_name: str
+
 app = FastAPI(
     title="CB5 Capital Research Terminal API",
     description="Research Terminal Backend API for managing knowledge bases, generating AI-powered dashboards, and tracking query history.",
@@ -1443,6 +1447,123 @@ Analyze the data and provide a comprehensive answer to the user's question."""
     except Exception as e:
         print(f"Error in chat continuation: {e}")
         raise HTTPException(status_code=500, detail=f"Error processing chat: {str(e)}")
+
+
+@app.post("/api/projects/create")
+async def create_new_project(request: NewProjectRequest):
+    """
+    Create a new project with all necessary directory structure and files.
+    
+    Args:
+        request: NewProjectRequest containing project_id and project_name
+        
+    Returns:
+        Dictionary containing the created project information
+    """
+    try:
+        project_id = request.project_id.strip()
+        project_name = request.project_name.strip()
+        
+        # Validate project ID format (uppercase letters and numbers only)
+        if not project_id or not project_name:
+            raise HTTPException(status_code=400, detail="Project ID and name are required")
+        
+        if not re.match(r'^[A-Z0-9]+$', project_id):
+            raise HTTPException(status_code=400, detail="Project ID must contain only uppercase letters and numbers")
+        
+        # Check if project already exists
+        project_file = os.path.join("ProjectLib", f"{project_id}.json")
+        if os.path.exists(project_file):
+            raise HTTPException(status_code=409, detail=f"Project {project_id} already exists")
+        
+        # Create all necessary directories
+        directories_to_create = [
+            "ProjectLib",
+            os.path.join("DataLib", project_id),
+            os.path.join("QueryLib", project_id),
+            os.path.join("DashboardLib", project_id)
+        ]
+        
+        for directory in directories_to_create:
+            os.makedirs(directory, exist_ok=True)
+            print(f"Created directory: {directory}")
+        
+        # Create project JSON file in ProjectLib
+        current_time = datetime.now().isoformat()
+        project_data = {
+            "project_id": project_id,
+            "project_name": project_name,
+            "created_at": current_time,
+            "modified_at": current_time,
+            "research_questions": [],
+            "description": "",
+            "tags": [],
+            "status": "active"
+        }
+        
+        with open(project_file, 'w', encoding='utf-8') as f:
+            json.dump(project_data, f, indent=4, ensure_ascii=False)
+        print(f"Created project file: {project_file}")
+        
+        # Create initial files in other directories
+        
+        # Create placeholder file in DataLib
+        data_readme = os.path.join("DataLib", project_id, "README.txt")
+        with open(data_readme, 'w', encoding='utf-8') as f:
+            f.write(f"""# Data Library for {project_name} ({project_id})
+
+This directory contains all data files for this project:
+- Documents (.txt, .docx, .pdf)
+- CSV files and datasets
+- Web scraped content
+- Notes and research materials
+
+Upload files using the Data Manager in the application.
+""")
+        print(f"Created data README: {data_readme}")
+        
+        # Create empty dashboard items file
+        items_file = os.path.join("DashboardLib", project_id, "items.json")
+        with open(items_file, 'w', encoding='utf-8') as f:
+            json.dump([], f, indent=2)
+        print(f"Created dashboard items file: {items_file}")
+        
+        # Create query directory README
+        query_readme = os.path.join("QueryLib", project_id, "README.txt")
+        with open(query_readme, 'w', encoding='utf-8') as f:
+            f.write(f"""# Query Library for {project_name} ({project_id})
+
+This directory contains saved dashboards and query history:
+- dashboard_*.json files contain saved dashboard configurations
+- Each dashboard includes components, layout, and conversation history
+
+Generated automatically when creating dashboards through the application.
+""")
+        print(f"Created query README: {query_readme}")
+        
+        return {
+            "success": True,
+            "project": {
+                "project_id": project_id,
+                "project_name": project_name,
+                "created_at": current_time,
+                "status": "active"
+            },
+            "directories_created": [
+                f"ProjectLib/{project_id}.json",
+                f"DataLib/{project_id}/",
+                f"QueryLib/{project_id}/",
+                f"DashboardLib/{project_id}/"
+            ],
+            "message": f"Successfully created project '{project_name}' with ID '{project_id}'"
+        }
+        
+    except HTTPException:
+        # Re-raise HTTP exceptions as-is
+        raise
+    except Exception as e:
+        print(f"Error creating project: {e}")
+        raise HTTPException(status_code=500, detail=f"Error creating project: {str(e)}")
 
 
 @app.get("/api/cases/{case_name}/research-questions")
