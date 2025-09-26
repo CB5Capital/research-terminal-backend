@@ -1072,7 +1072,7 @@ async def get_source_content(case_name: str, filename: str):
 @app.post("/api/cases/{case_name}/upload/file")
 async def upload_file(case_name: str, file: UploadFile = File(...)):
     """
-    Upload a file to the case's DataLib directory.
+    Upload a file to the case's DataLib directory and automatically generate dashboard items.
     """
     try:
         # Ensure DataLib directory exists
@@ -1084,12 +1084,31 @@ async def upload_file(case_name: str, file: UploadFile = File(...)):
         with open(file_path, "wb") as buffer:
             shutil.copyfileobj(file.file, buffer)
         
+        file_size = os.path.getsize(file_path)
+        print(f"File {file.filename} uploaded successfully to {case_name}, size: {file_size} bytes")
+        
+        # Automatically generate dashboard items from the uploaded file
+        dashboard_generation_result = None
+        try:
+            print(f"Auto-generating dashboard items for uploaded file: {file.filename}")
+            dashboard_generation_result = await generate_dashboard_from_file(case_name, file.filename)
+            print(f"Dashboard generation completed: {dashboard_generation_result.get('items_created', 0)} items created")
+        except Exception as e:
+            print(f"Dashboard generation failed for {file.filename}: {e}")
+            # Don't fail the upload if dashboard generation fails
+            dashboard_generation_result = {
+                "success": False,
+                "error": str(e),
+                "items_created": 0
+            }
+        
         return {
             "success": True,
-            "message": f"File {file.filename} uploaded successfully",
+            "message": f"File {file.filename} uploaded and processed successfully",
             "filename": file.filename,
             "case_name": case_name,
-            "file_size": os.path.getsize(file_path)
+            "file_size": file_size,
+            "dashboard_generation": dashboard_generation_result
         }
         
     except Exception as e:
@@ -1213,16 +1232,35 @@ Content:
         with open(file_path, "w", encoding="utf-8") as f:
             f.write(scraped_content)
         
+        file_size = os.path.getsize(file_path)
+        print(f"URL content scraped and saved as {filename} for {case_name}, size: {file_size} bytes")
+        
+        # Automatically generate dashboard items from the scraped content
+        dashboard_generation_result = None
+        try:
+            print(f"Auto-generating dashboard items for scraped URL content: {filename}")
+            dashboard_generation_result = await generate_dashboard_from_file(case_name, filename)
+            print(f"Dashboard generation completed: {dashboard_generation_result.get('items_created', 0)} items created")
+        except Exception as e:
+            print(f"Dashboard generation failed for {filename}: {e}")
+            # Don't fail the upload if dashboard generation fails
+            dashboard_generation_result = {
+                "success": False,
+                "error": str(e),
+                "items_created": 0
+            }
+        
         return {
             "success": True,
-            "message": f"Webpage content scraped and saved as {filename}",
+            "message": f"Webpage content scraped, saved as {filename}, and processed successfully",
             "filename": filename,
             "case_name": case_name,
             "url": request.url,
             "title": title_text,
             "content_type": content_type,
-            "file_size": os.path.getsize(file_path),
-            "content_length": len(text_content)
+            "file_size": file_size,
+            "content_length": len(text_content),
+            "dashboard_generation": dashboard_generation_result
         }
         
     except requests.RequestException as e:
@@ -1252,12 +1290,31 @@ async def upload_text(case_name: str, request: TextUploadRequest):
         with open(file_path, "w", encoding="utf-8") as f:
             f.write(request.content)
         
+        file_size = os.path.getsize(file_path)
+        print(f"Text file {filename} created for {case_name}, size: {file_size} bytes")
+        
+        # Automatically generate dashboard items from the text content
+        dashboard_generation_result = None
+        try:
+            print(f"Auto-generating dashboard items for text file: {filename}")
+            dashboard_generation_result = await generate_dashboard_from_file(case_name, filename)
+            print(f"Dashboard generation completed: {dashboard_generation_result.get('items_created', 0)} items created")
+        except Exception as e:
+            print(f"Dashboard generation failed for {filename}: {e}")
+            # Don't fail the upload if dashboard generation fails
+            dashboard_generation_result = {
+                "success": False,
+                "error": str(e),
+                "items_created": 0
+            }
+        
         return {
             "success": True,
-            "message": f"Text file {filename} created successfully",
+            "message": f"Text file {filename} created and processed successfully",
             "filename": filename,
             "case_name": case_name,
-            "file_size": os.path.getsize(file_path)
+            "file_size": file_size,
+            "dashboard_generation": dashboard_generation_result
         }
         
     except Exception as e:
@@ -1283,13 +1340,32 @@ async def insert_note(case_name: str, request: NoteInsertRequest):
         with open(file_path, "w", encoding="utf-8") as f:
             f.write(request.content)
         
+        file_size = os.path.getsize(file_path)
+        print(f"Note {filename} inserted for {case_name}, size: {file_size} bytes")
+        
+        # Automatically generate dashboard items from the note content
+        dashboard_generation_result = None
+        try:
+            print(f"Auto-generating dashboard items for note: {filename}")
+            dashboard_generation_result = await generate_dashboard_from_file(case_name, filename)
+            print(f"Dashboard generation completed: {dashboard_generation_result.get('items_created', 0)} items created")
+        except Exception as e:
+            print(f"Dashboard generation failed for {filename}: {e}")
+            # Don't fail the upload if dashboard generation fails
+            dashboard_generation_result = {
+                "success": False,
+                "error": str(e),
+                "items_created": 0
+            }
+        
         return {
             "success": True,
-            "message": f"Note {filename} inserted successfully",
+            "message": f"Note {filename} inserted and processed successfully",
             "filename": filename,
             "case_name": case_name,
             "timestamp": timestamp,
-            "file_size": os.path.getsize(file_path)
+            "file_size": file_size,
+            "dashboard_generation": dashboard_generation_result
         }
         
     except Exception as e:
